@@ -52,7 +52,9 @@ Based on the graph below:
 - As the fundraising goal is increasing, the chances of it failing goes up, and there is an adverse relation between the success of the event and its failer. 
 - The cancelation percentage was zero all the time. 
 
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/59425631/123581126-4317a500-d7a9-11eb-937e-b7cdd187f259.png)
 
+### What are some limitations of this dataset?
 
 
 
