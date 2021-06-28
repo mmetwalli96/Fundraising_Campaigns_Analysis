@@ -7,5 +7,25 @@ Louise’s play Fever came close to its fundraising goal in a short amount of ti
 ## Analysis and Challenges
 ---
 ### Analysis of Outcomes Based on Launch Date
-The lunch date was converted from unix timestamp to a readable format, using the following formula =(((J2/60)/60)/24)+DATE(1970,1,1), where J is the column in which the unix timestamp values exist and 2 is the number of the row. After doing that, it possible to know the year of each event. The function __year__ was utilized to creat a column containing the year, to allow for filtration based on the year. Hence, the pivot table was created ant its fields were apointed as illustrated in figure 1. ![Capture 85](https://user-images.githubusercontent.com/59425631/123569538-7bf94f00-d794-11eb-9f0f-599619342ce3.PNG)
-  
+The lunch date was converted from unix timestamp to a readable format, using the following formula =(((J2/60)/60)/24)+DATE(1970,1,1), where J is the column in which the unix timestamp values exist and 2 is the number of the row. After doing that, it possible to know the year of each event. The function __year__ was utilized to creat a column containing the year, to allow for filtration based on the year. Hence, the pivot table was created and its fields were apointed as illustrated in the below figure.
+
+![Capture 85](https://user-images.githubusercontent.com/59425631/123569538-7bf94f00-d794-11eb-9f0f-599619342ce3.PNG)
+
+As the pivot table was created, the pivot chart was done as well. From the pivottable analyze tab there is box where you can click on it to creat the chart. the chart type is a line chart with markers. 
+
+
+### Analysis of Outcomes Based on Goals
+The goals were grouped as follows:
+- less than 1000
+- 1000 to 4999
+- 5000 to 9999
+- 10000 to 14999
+- 15000 to 19999
+- 20000 to 24999
+- 30000 to 34999
+- 35000 to 39999
+- 40000 to 44999
+- 45000 to 49999
+- greater than 50000
+
+
