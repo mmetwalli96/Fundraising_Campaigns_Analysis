@@ -28,4 +28,34 @@ The goals were grouped as follows:
 - 45000 to 49999
 - greater than 50000
 
+the number of successful, failed, and canceled plays were counted using the function __counterifs__. There are three cretieria were used, the first is related to the goal category. As for the second, it is the status of the goal, whether it was successful, failed, or canceled. The last cretieria was to pick the subcategory plays.
+
+
+### Challenges and Difficulties Encountered
+One challenge was how to input the goal group when it is between two values. To solve it, for the case of 20000 to 24999, I input the creteria as less than or equal to 24999, Accordingly it will count all the groups before it, consequently, I substract the sum of the values of the other groups before it from the evalueted number based on the previously mentioned creteria. 
+
+Another one, was finding the appropiate time to the required deliverables. I tried to do whatever can be done when I have the chance to do so. To submit this challenge on time.
+
+
+## Results
+---
+### What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/59425631/123579816-9b997300-d7a6-11eb-9f73-875dbd7743b3.png)
+
+- Based on the above figure, one deduction is the number of successful theater events peaks at the month of May and decreases afterwards till December. It increases starting from  January. As for the case of failed events it increases throughout the year. Lastly, the canceled occasions are almost constant over the year. 
+
+- Another conclusion is that, the best time to lucnh an event is the begining of the year. As the rate of the increase of successful events is higher compared to the failed ones.
+
+### What can you conclude about the Outcomes based on Goals?
+Based on the graph below:
+- As the fundraising goal is increasing, the chances of it failing goes up, and there is an adverse relation between the success of the event and its failer. 
+- The cancelation percentage was zero all the time. 
+
+
+
+
+
+
+
 
