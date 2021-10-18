@@ -56,7 +56,6 @@ Based on the graph below:
 
 ### What are some limitations of this dataset?
 - There is need for more data to help in understanding the reason behind the failure of some events, an example would be quality of the production of some television shows. Another example would be the advertising and marketing techniques that were implemetned in the fund raising events. 
-- 
 ### What are some other possible tables and/or graphs that we could create?
 - A table presenting the percentage of  successful, failed, and canceled theater events based on the lunch date and its chart.
 - A table summerizing the period on which every event was succesfully completed. 
